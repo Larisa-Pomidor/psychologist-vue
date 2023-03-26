@@ -73,4 +73,16 @@ export default {
     color: black;
     opacity: 0.9;
 }
+
+@media(max-width: 900px) {
+
+    .footer__copy {
+        text-align: center;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 </style>

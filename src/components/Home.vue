@@ -174,7 +174,6 @@ export default {
     z-index: 1;
 }
 
-
 .home__controll {
     position: absolute;
     right: 20px;
@@ -229,5 +228,33 @@ export default {
     max-width: 900px;
     margin: auto;
     color: white;
+}
+
+@media(max-width: 900px) {
+
+    .home__banner img {
+        height: 100%;
+        width: unset;
+    }
+
+    .home__image {
+        top: -40%;
+        left: -231%;
+    }
+
+    .home__controll {
+        display: flex;
+        gap: 8px;
+        top: unset;
+        bottom: 110px;
+    }
+
+    .home__banner-item {
+        padding: 0 20px;
+    }
+
+    .home__text {
+        margin-bottom: 150px;
+    }
 }
 </style>

@@ -114,4 +114,17 @@ button {
 .sidebar__controll i {
     margin-left: 10px;
 }
+
+@media(max-width: 900px) {
+    .sidebar__outer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .sidebar__controll {
+        right: 20px;
+        font-size: 13px;
+        top: 13px;
+    }
+}
 </style>

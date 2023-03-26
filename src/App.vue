@@ -43,4 +43,10 @@ body {
   max-width: 1240px;
   margin: auto;
 }
+
+@media(max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
+}
 </style>

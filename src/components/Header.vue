@@ -19,29 +19,36 @@ export default {
 </script>
 
 <style scoped>
-    .header__outer {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1;
-        content: '';
-        background: white;
-        padding: 10px 0;
-    }
+.header__outer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    content: '';
+    background: white;
+    padding: 10px 0;
+}
 
-    .header__inner {
-        display: flex;
-        align-items: center;
-    }
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 18px;
+}
+
+.header__menu-item {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media(max-width: 900px) {
 
     .header__logo {
-        font-family: 'Pattaya', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
     }
-
-    .header__menu-item {
-        cursor: pointer;
-        font-weight: 700;
-    }
+}
 </style>
