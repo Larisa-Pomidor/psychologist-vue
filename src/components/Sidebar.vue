@@ -2,11 +2,9 @@
     <div :class="'sidebar ' + (sidebarActive ? 'sidebar_active' : '')">
         <div class="sidebar__outer">
             <div class="sidebar__controll" @click="toggleSidebar">
-                <div class="sidebar__open">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </div>
-                <div class="sidebar__close">
-                    <i class="fa fa-close" aria-hidden="true"></i>
+                Связаться со мной
+                <div class="sidebar__pen">
+                    <i class="fa fa-pencil"></i>
                 </div>
             </div>
             <div class="sidebar__inner">
@@ -106,19 +104,14 @@ button {
     text-align: end;
     position: fixed;
     right: 40px;
-    top: 8px;
-    font-size: 24px;
+    top: 11px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
-.sidebar__close {
-    display: none;
-}
-
-.sidebar__controll_active .sidebar__close {
-    display: block;
-}
-
-.sidebar__controll_active .sidebar__open {
-    display: none;
+.sidebar__controll i {
+    margin-left: 10px;
 }
 </style>

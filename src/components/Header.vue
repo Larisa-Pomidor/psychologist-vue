@@ -6,11 +6,6 @@
                     <div class="header__logo">
                         Душевная Гармония
                     </div>
-                    <div class="header__menu">
-                        <div class="header__menu-item">
-                            Связаться о мной
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -38,7 +33,6 @@ export default {
     .header__inner {
         display: flex;
         align-items: center;
-        justify-content: space-between;
     }
 
     .header__logo {

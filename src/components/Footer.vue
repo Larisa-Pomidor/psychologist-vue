@@ -55,7 +55,7 @@ export default {
 }
 
 .footer__copy {
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 2px;
     font-weight: 700;
 }
